@@ -10,7 +10,7 @@ import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
 import { AppContext } from "./main.jsx";
-export const server = "http://127.0.0.1:4000/api/v1";
+export const server = "https://backend-todo-10cm.onrender.com/api/v1";
 import "./styles/App.css";
 function App() {
   const { setUser, setIsAuthenticated, refresh, setTask } =
