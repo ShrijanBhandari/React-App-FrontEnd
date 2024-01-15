@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::before {
+    content: "";
+    background: url('../images/bg.jpg') no-repeat center/cover;
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    z-index: -1;
+
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.form-section form input {
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.passwordcontainer {
+    display: flex;
+    padding: 12px;
+    background-color: white;
+    margin: 10px;
+    width: 60%;
+    height: 4vh;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.passwordcontainer input[type='password'] {
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    width: 90%;
+}
+
+.passwordcontainer input[type='text'] {
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 90%;
+}
+
+.btn-submit {
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    width: 25%;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 2.5rem;
+    margin: 5px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: black;
+    color: lightgray;
+}
+
+.btn-submit:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+label {
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+label:hover {
+    color: black;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none !important;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}

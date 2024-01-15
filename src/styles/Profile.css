@@ -1,0 +1,45 @@
+.profile::before {
+    content: "";
+    background: url('../images/homebg.jpg') no-repeat center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+}
+
+.profile {
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    /* justify-content: center; */
+}
+
+
+
+#user_name {
+    padding-left: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+
+}
+
+#user_profile {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+#user_profile img {
+    height: 50%;
+    width: 45%;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+
+}
